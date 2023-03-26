@@ -4,6 +4,10 @@ import '../styles/App.css';
 const App = () => {
 
   const [isDarkMode, setIsDarkMode] = useState(false);
+  
+  const handleToggle=()=>{
+   setIsDarkMode(!isDarkMode)
+  }
 
   return (
    <div id="main" style={{
